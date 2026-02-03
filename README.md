@@ -59,8 +59,7 @@ python demo/app.py
 ## Future Work
 - Explore GAN-based approaches with geospatial constraints  
 - Expand to multi-spectral satellite imagery  
-- Optimize for real-time inference on larger images
-
+- Optimize for real-time inference on larger images  
 
 
 
