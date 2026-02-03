@@ -12,12 +12,13 @@ We present an end-to-end super-resolution pipeline that:
 - Generates paired LR–HR data via controlled downsampling  
 - Trains a CNN-based super-resolution model using patch-based learning  
 - Produces visually sharper, structurally consistent outputs  
-- Provides an interactive Gradio demo for real-time inference
+- Provides an interactive Gradio demo for real-time inference  
 
 ## Dataset
 - **WorldStrat (subset)**  
 - HR images used as ground truth  
 - LR images generated synthetically from HR  
+
 > Dataset is not included due to size constraints.
 
 ## Model
@@ -28,10 +29,14 @@ We present an end-to-end super-resolution pipeline that:
 
 This supervised approach is chosen to preserve geospatial accuracy and mitigate hallucinations common in GAN-based methods.
 
+## Notes on Model Weights & Evaluation
+The current implementation focuses on demonstrating a complete, hallucination-safe super-resolution pipeline.  
+Model weights are illustrative; emphasis is placed on geospatial consistency, controlled upscaling, and end-to-end inference rather than aggressive perceptual enhancement.
+
 ## Tech Stack
 - Python, PyTorch  
 - OpenCV, NumPy, Matplotlib  
-- Gradio (UI)
+- Gradio (UI)  
 
 ## Results
 The model delivers clear visual improvements over standard upscaling, with sharper edges and improved structural detail. Qualitative comparisons demonstrate consistent enhancement across diverse satellite scenes.
@@ -55,6 +60,7 @@ python demo/app.py
 - Explore GAN-based approaches with geospatial constraints  
 - Expand to multi-spectral satellite imagery  
 - Optimize for real-time inference on larger images
+
 
 
 
