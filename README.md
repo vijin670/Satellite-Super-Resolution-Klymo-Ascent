@@ -43,7 +43,7 @@ The model delivers clear visual improvements over standard upscaling, with sharp
 
 ## Demo
 An interactive Gradio interface allows users to upload a low-resolution satellite image and view the super-resolved output in real time.  
-**Demo Video:** *(link)*
+**Demo Video:** *(https://drive.google.com/file/d/1YGFh0p6-w8rqL8rNqdGh2yHQjHz8xfgL/view?usp=drivesdk)*
 
 ## How to Run
 ```bash
